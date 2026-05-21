@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reelax Checkout Dashboard</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                blue: '#2563EB',
+                lightBlue: '#EFF6FF',
+                orange: '#F59E0B',
+                grayBg: '#F8FAFC',
+              },
+              slate: {
+                50: '#F8FAFC',
+                100: '#E2E8F0',
+                200: '#CBD5E1',
+                400: '#94A3B8',
+                500: '#64748B',
+                700: '#334155',
+                800: '#1E293B',
+                900: '#0F172A',
+              }
+            },
+            borderRadius: {
+              'figma-sm': '6px',
+              'figma-md': '10px',
+              'figma-lg': '16px',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-900 m-0 p-0 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
