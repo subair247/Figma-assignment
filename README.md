@@ -3,7 +3,7 @@
 A high-fidelity, responsive implementation of the design assignment using React JS and Tailwind CSS.
 
 ## 🚀 Live Demo
-- **Hosted App:** [Link to your Vercel/Render Deployment]
+- **Hosted App:** https://figma-assignment-beryl-two.vercel.app/
 
 ## 🛠️ Tech Stack & Key Choices
 - **Build Engine:** Vite (Optimized production asset bundles)
