@@ -51,7 +51,7 @@ reelax-checkout/
 ⚙️ How to Run Locally
 1.Clone the repository:
 
-git clone <your-repository-url>
+git clone https://github.com/subair247/Figma-assignment.git
 cd figma-assignment/reelax-checkout
 
 2.Install project dependencies:
